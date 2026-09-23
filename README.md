@@ -1,2 +1,17 @@
 # day-7
-#include &lt;stdio.h>  int main()  {     int marks;     scanf("%d",&amp; marks \n);     if (marks>=40)     {         printf("pass\n");     }         return 0; }
+#include <stdio.h>
+
+int main()
+{
+    int marks;
+
+    printf("Enter marks: ");
+    scanf("%d\n", &marks);
+
+    if (marks >= 40)
+    {
+        printf("Pass\n");
+    }
+
+    return 0;
+}
